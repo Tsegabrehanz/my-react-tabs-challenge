@@ -1,0 +1,63 @@
+/* src/Tabs.css */
+
+/* Style for the h1 element */
+h1 {
+    margin-bottom: 20px;              
+    color: #333;                      
+    font-size: 2.5em;                 
+    text-align: center;               
+}
+
+/* Container for the tabs */
+.tabs {
+    display: flex;                     
+    justify-content: center;           
+    margin-bottom: 20px;              
+}
+
+/* Style for each tab button */
+.tab {
+    background-color: #f1f1f1;        
+    border: 1px solid #ccc;           
+    border-radius: 4px;               
+    padding: 10px 20px;               
+    margin: 0 5px;                    
+    cursor: pointer;                   
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+/* Hover effect for tab buttons */
+.tab:hover {
+    background-color: #007bff;        
+    color: white;                     
+}
+
+/* Active tab style */
+.active {
+    background-color: #007bff;        
+    color: white;                     
+}
+
+/* Style for the tab content area */
+.tab-content {
+    display: flex;                    
+    flex-direction: column;           
+    align-items: center;              
+}
+
+/* Optional: Style for the tab titles and content */
+.tab-content h2 {
+    margin: 10px 0;                  
+    color: #333;                      
+}
+
+.tab-content p {
+    margin: 0;                       
+    color: #555;                      
+}
+
+/* Loading animation styling */
+img {
+    max-width: 100%;                 
+    height: auto;                    
+}
